@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Special Elite', cursive;
+    color: #FFF;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+ 
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+ul li{
+    margin-right: 10px;
+}
+
+ul li a{
+    color: rgb(255, 0, 0);
+    text-decoration:none;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #FFF;
+
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.palbum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
